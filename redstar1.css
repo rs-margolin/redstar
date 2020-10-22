@@ -1,0 +1,18 @@
+.flex { 
+    border: 1px solid;
+    width: min(80vw, 1170px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+body *{border: 1px solid;}
+
+
+.flex .logo { width: 70%; display: block;}
+.flex .perm { width: 20%;}
+.flex .free { width: 100px;height: 10px; background-color: aquamarine;}
