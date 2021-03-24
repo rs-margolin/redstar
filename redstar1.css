@@ -1,5 +1,5 @@
 .flex { 
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: min(80vw, 1170px);
     display: flex;
     justify-content: space-between;
@@ -10,9 +10,21 @@
 }
 
 
-body *{border: 1px solid;}
+/*body *{border: 1px solid;}*/
 
+h1, h2 {text-align: center;}
 
+.foto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.foto img {
+  width: 350px;
+}
 .flex .logo { width: 70%; display: block;}
 .flex .perm { width: 20%;}
 .flex .free { width: 100px;height: 10px; background-color: aquamarine;}
